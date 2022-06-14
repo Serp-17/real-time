@@ -24,11 +24,3 @@ function broadcasetMessage (message) {
         client.send(JSON.stringify(message));
     })
 }
-
-const message = {
-    event: "message/connection",
-    id: 123,
-    date: "21.02.2022",
-    username: "name",
-    message: "qj qjqjj",
-}
