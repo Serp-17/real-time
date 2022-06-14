@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { LongPuling, EventSourcing } from './components';
+import { LongPuling, EventSourcing, WebSoket } from './components';
 
 function App() {
-  console.log(1)
   return (
     <div className="App">
       {/* <LongPuling/> */}
-      <EventSourcing/>
+      {/* <EventSourcing/> */}
+      <WebSoket/>
     </div>
   );
 }
